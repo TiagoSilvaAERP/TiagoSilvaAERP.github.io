@@ -1,0 +1,196 @@
+/*global styles */
+body {
+    font-family: Arial, sans-serif;
+    /* Fonte padrão */
+    line-height: 1.6;
+    /* Espaçamento entre linhas */
+    background-color: #ECF0F1;
+    /* Cor de fundo da página */
+    color: #333;
+    /* Cor do texto */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilo Cabeçalho */
+header {
+    background-color: #2C3E50;
+    /* Cor de fundo do cabeçalho */
+    color: #fff;
+    /* Cor do texto */
+    text-align: center;
+    padding: 35px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    display: inline;
+    /* Exibe os itens da lista em linha */
+    padding: 0 15px;
+    /* Espaçamento entre os itens */
+    font-size: 20px;
+    /* Tamanho da fonte */
+}
+
+header a {
+    color: #ECF0F1;
+    /* Cor dos links */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+header a:hover {
+    color: #3498DB;
+    /* Cor dos links ao passar o mouse */
+}
+
+h1 {
+    font-size: 35px;
+    /* Tamanho da fonte */
+}
+
+header nav ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+/*Estilo Imagem*/
+#Sobre img {
+    width: 200px;
+    /* Largura máxima da imagem */
+    height: 200px;
+    border-radius: 50%;
+    /* Torna a imagem circular */
+    margin: 0px auto;
+    /* Centraliza a imagem horizontalmente */
+    display: block;
+    /*centra a imagem*/
+    object-fit: cover;
+    object-position: top center;
+    border: solid 4px #34495E;
+}
+
+/* Estilo Seção Principal */
+main {
+    padding: 40px 10%;
+    /* Espaçamento interno */
+}
+
+main h2 {
+    border-bottom: solid 1px #34495E;
+    /* Espaçamento abaixo do título */
+    padding-top: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+    /* Espaçamento entre as seções */
+}
+
+h2 {
+    margin-bottom: 10px;
+    /* Remove a margem superior */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    color: #2C3E50;
+    /* Cor do título */
+}
+
+h3 {
+    margin-bottom: 10px;
+    /* Remove a margem superior */
+    font-size: 24px;
+    /* Tamanho da fonte */
+}
+
+/* Estilos para a tabela de dados */
+table {
+    width: 100%;
+    /* Largura total da tabela */
+    border-collapse: collapse;
+    /* Remove espaços entre as bordas das células */
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #BDC3C7;
+    /* Borda da tabela, cabeçalho e células */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Espaçamento interno das células */
+    text-align: left;
+    /* Alinhamento do texto à esquerda */
+}
+
+th {
+    background-color: #34495E;
+    /* Cor de fundo do cabeçalho da tabela */
+    color: #fff;
+    /* Cor do texto do cabeçalho */
+}
+
+tdbody tr:hover {
+    background-color: #D5D8DC;
+    /* Cor de fundo ao passar o mouse sobre a linha */
+}
+
+/* Estilo Glossário */
+
+dl {
+    width: 100%;
+    /* Largura total do glossário */
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Estilo Contacto */
+
+address {
+    font-style: normal;
+    /* Estilo normal para o texto do endereço */
+    margin-top: 20px;
+}
+
+a {
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo Rodapé */
+footer {
+    background-color: #2C3E50;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinhamento do texto */
+    padding: 10px 0;
+    /* Espaçamento interno */
+}
+
+footer p {
+    margin: 0;
+    /* Remove a margem padrão */
+}
