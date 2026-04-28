@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Backoffice | Visão Geral</title>
+    <link rel="icon" href="../assets/image/logo.ico">
+    <meta name="robots" content="noindex">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body data-page="overview">
+    <div class="admin-app">
+        <aside class="admin-sidebar" id="adminSidebar">
+            <div class="sidebar-brand">
+                <div class="brand-mark"><i class="bx bxs-dashboard"></i></div>
+                <div>
+                    <h1>Backoffice</h1>
+                    <p>Visão geral</p>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-link active"><i class="bx bx-grid-alt"></i><span>Visão geral</span></a>
+                <a href="partidos.html" class="nav-link"><i class="bx bx-flag"></i><span>Partidos</span></a>
+                <a href="utilizadores.html" class="nav-link"><i class="bx bx-group"></i><span>Utilizadores</span></a>
+                <a href="temas.html" class="nav-link"><i class="bx bx-book-content"></i><span>Temas</span></a>
+                <a href="tempofala.html" class="nav-link"><i class="bx bx-time-five"></i><span>Tempo de fala</span></a>
+            </nav>
+
+            <div class="sidebar-card">
+                <p class="mb-1 text-uppercase small text-white-50">Sessão</p>
+                <h2 id="sidebarUserName">Admin</h2>
+                <span class="badge text-bg-light text-primary" id="sidebarUserRole">admin</span>
+            </div>
+        </aside>
+
+        <div class="admin-content">
+            <header class="topbar">
+                <button class="btn btn-outline-light d-lg-none" id="sidebarToggle" type="button"><i class="bx bx-menu"></i></button>
+                <div>
+                    <p class="topbar-kicker mb-1">Painel principal</p>
+                    <h2 class="topbar-title mb-0">Dashboard do administrador</h2>
+                </div>
+                <div class="topbar-actions">
+                    <div class="topbar-user">
+                        <i class="bx bx-user-circle"></i>
+                        <div>
+                            <strong id="topbarUserName">Admin</strong>
+                            <small id="topbarUserRole">role: admin</small>
+                        </div>
+                    </div>
+                    <button class="btn btn-light btn-sm" type="button" id="logoutBtn"><i class="bx bx-log-out"></i> Sair</button>
+                </div>
+            </header>
+
+            <main class="container-fluid py-4">
+                <div id="accessAlert"></div>
+
+                <section class="mb-4">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="stat-card stat-primary">
+                                <div><span>Partidos</span><strong id="partyCountOverview">0</strong></div>
+                                <i class="bx bx-flag"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="stat-card stat-green">
+                                <div><span>Utilizadores</span><strong id="userCountOverview">0</strong></div>
+                                <i class="bx bx-group"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="stat-card stat-orange">
+                                <div><span>Temas</span><strong id="themeCountOverview">0</strong></div>
+                                <i class="bx bx-book-content"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="stat-card stat-dark">
+                                <div><span>Tempos</span><strong id="timeCountOverview">0</strong></div>
+                                <i class="bx bx-time-five"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="dashboard-section">
+                    <div class="panel-card">
+                        <div class="section-header">
+                            <div>
+                                <p class="section-kicker mb-1">Atalhos</p>
+                                <h3 class="section-title mb-0">Ir diretamente para uma categoria</h3>
+                            </div>
+                        </div>
+
+                        <div class="shortcut-grid">
+                            <a class="shortcut-card" href="partidos.html">
+                                <i class="bx bx-flag"></i>
+                                <strong>Gerir partidos</strong>
+                                <span>Adicionar, editar e remover partidos.</span>
+                            </a>
+                            <a class="shortcut-card" href="utilizadores.html">
+                                <i class="bx bx-group"></i>
+                                <strong>Gerir utilizadores</strong>
+                                <span>Criar contas e escolher a role.</span>
+                            </a>
+                            <a class="shortcut-card" href="temas.html">
+                                <i class="bx bx-book-content"></i>
+                                <strong>Gerir temas</strong>
+                                <span>Organizar os temas de debate.</span>
+                            </a>
+                            <a class="shortcut-card" href="tempofala.html">
+                                <i class="bx bx-time-five"></i>
+                                <strong>Tempo de fala</strong>
+                                <span>Definir minutos por partido em cada tema.</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/admin.js"></script>
+</body>
+</html>

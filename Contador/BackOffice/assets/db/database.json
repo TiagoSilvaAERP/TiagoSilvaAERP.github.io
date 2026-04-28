@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "username": "admin",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Mesa",
+      "username": "mesa",
+      "password": "123456",
+      "role": "mesa"
+    }
+  ],
+  "partidos": [
+    {
+      "id": 1,
+      "name": "Partido Social",
+      "short": "PS",
+      "color": "#2563eb",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=900&q=60"
+    },
+    {
+      "id": 2,
+      "name": "CIM",
+      "short": "CIM",
+      "color": "#dc2626",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1e1c4fa1c85?auto=format&fit=crop&w=900&q=60"
+    },
+    {
+      "id": 3,
+      "name": "Partido Social Democrata",
+      "short": "PSD",
+      "color": "#16a34a",
+      "image": "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=900&q=60"
+    },
+    {
+      "id": 4,
+      "name": "Vamos Mudar",
+      "short": "VM",
+      "color": "#16a34a",
+      "image": "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=900&q=60"
+    },
+    {
+      "id": 5,
+      "name": "CDU",
+      "short": "CDU",
+      "color": "#16a34a",
+      "image": "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=900&q=60"
+    },
+    {
+      "id": 6,
+      "name": "Chega",
+      "short": "CHEGA",
+      "color": "#16a34a",
+      "image": "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=900&q=60"
+    }
+  ],
+  "temas": [
+    {
+      "id": 1,
+      "name": "Economia"
+    },
+    {
+      "id": 2,
+      "name": "Saúde"
+    }
+  ],
+  "tempofala": [
+    {
+      "id": 1,
+      "themeId": 1,
+      "partyId": 1,
+      "minutes": 20
+    },
+    {
+      "id": 2,
+      "themeId": 1,
+      "partyId": 2,
+      "minutes": 15
+    },
+    {
+      "id": 3,
+      "themeId": 2,
+      "partyId": 1,
+      "minutes": 15
+    },
+    {
+      "id": 4,
+      "themeId": 2,
+      "partyId": 2,
+      "minutes": 20
+    }
+  ],
+  "settings": {
+    "defaultSessionMinutes": 20,
+    "enabled": true
+  }
+}

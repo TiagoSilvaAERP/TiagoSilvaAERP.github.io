@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo de Intervenção</title>
+    <link rel="icon" href="../BackOffice/assets/image/logo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- ESQUERDA -->
+    <div class="container">
+
+    <div class="top-bar">
+        <h1 class="party-name" id="partyName">PSD</h1>
+        <div class="timer" id="timer">05:00</div>
+    </div>
+
+    <div class="status-label">
+        <span class="status-indicator"></span>
+        <span id="statusText">EM ESPERA</span>
+    </div>
+
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+</div>
+
+<div class="sidebar">
+
+    <div class="party-item" data-party="CIM">
+        <span class="party-label">CIM</span>
+        <span class="side-timer" id="timer-CIM">10:00</span>
+    </div>
+
+    <div class="party-item" data-party="PSD">
+        <span class="party-label">PSD</span>
+        <span class="side-timer" id="timer-PSD">05:00</span>
+    </div>
+
+    <div class="party-item" data-party="PS">
+        <span class="party-label">PS</span>
+        <span class="side-timer" id="timer-PS">08:30</span>
+    </div>
+
+    <div class="party-item" data-party="CHEGA">
+        <span class="party-label">CHEGA</span>
+        <span class="side-timer" id="timer-CHEGA">12:00</span>
+    </div>
+
+    <div class="party-item" data-party="CDU">
+        <span class="party-label">CDU</span>
+        <span class="side-timer" id="timer-CDU">07:45</span>
+    </div>
+
+    <div class="party-item" data-party="VAMOS MUDAR">
+        <span class="party-label">VAMOS MUDAR</span>
+        <span class="side-timer" id="timer-VAMOS MUDAR">10:00</span>
+    </div>
+
+</div>
+
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
